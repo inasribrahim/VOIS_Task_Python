@@ -159,9 +159,3 @@ print(df_new.head(df_new.shape[0]))
     4   Ahmed      M   42         1700    52528.470
     5    Sara      F   25         1900    58708.290
     6   Julia      F   21         1950    60253.245
-    
-
-
-```python
-
-```
