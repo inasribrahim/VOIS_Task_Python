@@ -64,7 +64,7 @@ print(calculate_median_salaries('Salary(EGP)')) # median -> egypt
 
 # Calculate ratio 
 def calculate_ratio_gender(col_name):
-    return df[col_name].value_counts()
+    return df[col_name].value_counts() / df.shape[0]
 
 print(calculate_ratio_gender('Gender'))
 
