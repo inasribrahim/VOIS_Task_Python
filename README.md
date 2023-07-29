@@ -27,18 +27,17 @@ df = pd.read_csv(file_name)
 print(df.head(df.shape[0]))
 ```
 
-        Name  Gender  Age  Salary(USD)  Salary(EGP)
-    0    Mark      M   20         1000    30899.100
-    1   John       M   60         1200    37078.920
-    2  Edward      M   42         3000    92697.300
-    3   Salah      M   31         5000   154495.500
-    4   Ahmed      M   42         1700    52528.470
-    5    Sara      F   25         1900    58708.290
-    6   Julia      F   21         1950    60253.245
-    7   John       M   60         1200    37078.920
-    8    Mark      M   20         1000    30899.100
+            Name   Gender  Age      Salary(USD)
+       0    Mark      M  20.3650         1000
+       1   John       M  60.3226         1200
+       2  Edward      M  42.2650         3000
+       3   Salah      M  31.3800         5000
+       4   Ahmed      M  42.6800         1700
+       5    Sara      F  25.3640         1900
+       6   Julia      F  21.2857         1950
+       7   John       M  60.3226         1200
+       8    Mark      M  20.3650         1000
     
-
 
 ```python
 # Remove duplication
@@ -49,14 +48,14 @@ remove_duplication()
 print(df.head(df.shape[0]))
 ```
 
-        Name  Gender  Age  Salary(USD)  Salary(EGP)
-    0    Mark      M   20         1000    30899.100
-    1   John       M   60         1200    37078.920
-    2  Edward      M   42         3000    92697.300
-    3   Salah      M   31         5000   154495.500
-    4   Ahmed      M   42         1700    52528.470
-    5    Sara      F   25         1900    58708.290
-    6   Julia      F   21         1950    60253.245
+          Name  Gender      Age  Salary(USD)
+      0    Mark      M  20.3650         1000
+      1   John       M  60.3226         1200
+      2  Edward      M  42.2650         3000
+      3   Salah      M  31.3800         5000
+      4   Ahmed      M  42.6800         1700
+      5    Sara      F  25.3640         1900
+      6   Julia      F  21.2857         1950
     
 
 
@@ -69,14 +68,14 @@ remove_decimal('Age')
 print(df.head(df.shape[0]))        
 ```
 
-        Name  Gender  Age  Salary(USD)  Salary(EGP)
-    0    Mark      M   20         1000    30899.100
-    1   John       M   60         1200    37078.920
-    2  Edward      M   42         3000    92697.300
-    3   Salah      M   31         5000   154495.500
-    4   Ahmed      M   42         1700    52528.470
-    5    Sara      F   25         1900    58708.290
-    6   Julia      F   21         1950    60253.245
+          Name  Gender  Age  Salary(USD)
+      0    Mark      M   20         1000
+      1   John       M   60         1200
+      2  Edward      M   42         3000
+      3   Salah      M   31         5000
+      4   Ahmed      M   42         1700
+      5    Sara      F   25         1900
+      6   Julia      F   21         1950
     
 
 
